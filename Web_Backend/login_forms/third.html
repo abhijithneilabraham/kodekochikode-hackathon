@@ -1,0 +1,59 @@
+<html>
+<head>
+<title>Hospital Details</title>
+
+<link rel="stylesheet" href="css/style.css"/>
+
+</head>
+<body>
+<div class="container">
+<div class="main">
+<h2>Status</h2>
+<form id="form_id2" method="post" name="myform2">
+  <div class="imgcontainer">
+    <img src="med.jpg" alt="Avatar" class="avatar" style="width:100px;height:120px;">
+  </div>
+<label>Number Of Vacant Rooms</label>
+<input type="text" name="vac" id="vac"/>
+<label>Number Of Patients</label>
+<input type="pat" name="pat" id="pat"/>
+<label>Number Of Doctors</label>
+<input type="doct" name="doct" id="doct"/>
+<input type="button" value="Submit" id="submit" onclick="validate()"/>
+
+
+</form>
+
+</div>
+</div>
+
+<script >
+var vac = document.getElementById("vac").value;
+var pat = document.getElementById("pat").value;
+var doct=document.getElementById("doct").value;
+var data = [
+   ['Doctor', doct],
+   ['Patient', pat],
+   ['Vacant', vac]
+];
+
+
+
+function download_csv() {
+    var csv = 'Name,Title\n';
+    data.forEach(function(row) {
+            csv += row.join(',');
+            csv += "\n";
+    });
+
+    console.log(csv);
+    var hiddenElement = document.createElement('a');
+    hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
+    hiddenElement.target = '_blank';
+    hiddenElement.download = 'people.csv';
+    hiddenElement.click();
+}
+</script>
+<button onclick="download_csv()">Download CSV</button>
+</body>
+</html>

@@ -42,8 +42,112 @@
         "text": "Goodbye"
       },
       {
-        "intent": "bye",
-        "text": "Adios"
+        "intent": "service",
+        "text": "What kind of service can you provide"
+      },
+      {
+        "intent": "service",
+        "text": "I need immediate healthcare"
+      },
+      {
+        "intent": "service",
+        "text": "I am not feeling well"
+      },
+      {
+        "intent": "service",
+        "text": "I have lost my appetite"
+      },
+      {
+        "intent": "service",
+        "text": "I am feeling stressed"
+      },
+      {
+        "intent": "service",
+        "text": "I am having a headache"
+      },
+      {
+        "intent": "service",
+        "text": "I am feeling nauseous"
+      },
+      {
+        "intent": "service",
+        "text": "I think I am having a fever"
+      },
+      {
+        "intent": "service",
+        "text": "Find me the nearest hospital"
+      },
+      {
+        "intent": "service",
+        "text": "Can you schedule a medical appointment"
+      },
+      {
+        "intent": "scan",
+        "text": "Do my diagnostics"
+      },
+      {
+        "intent": "scan",
+        "text": "Do a daily check up"
+      },
+      {
+        "intent": "output",
+        "text": "What is my health status"
+      },
+      {
+        "intent": "output",
+        "text": "How fit am I"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "Yes"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "Indeed"
+      },
+      {
+        "intent": "mood_affirm",
+        "text": "Of course"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "No"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "Not Really"
+      },
+      {
+        "intent": "mood_deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "mood_great",
+        "text": "Perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "That's great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "Good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "Unhappy"
       }
     ],
     "regex_features": [],
