@@ -26,7 +26,7 @@ from rasa_core.interpreter import RasaNLUInterpreter
 def train_dialog(dialog_training_data_file, domain_file, path_to_model = 'models/dialogue'):
     logging.basicConfig(level='INFO')
     agent = Agent(domain_file,
-              policies=[MemoizationPolicy(), KerasPolicy(max_history=3,epochs=200,batch_size=50)])
+              policies=[MemoizationPolicy(), KerasPolicy()])
     training_data = agent.load_data(dialog_training_data_file)
     agent.train(
         training_data,
