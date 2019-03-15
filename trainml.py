@@ -18,7 +18,7 @@ dataset = numpy.loadtxt("choleraprediction.csv", delimiter=",")
 # split into input (X) and output (Y) variables
 X = dataset[:,0:8]
 Y = dataset[:,8]
-print(Y)
+
 # create model
 model = Sequential()
 model.add(Dense(12, input_dim=8, init='uniform', activation='relu'))
@@ -41,4 +41,4 @@ print(X[-1])
 
 predictions = model.predict(X)
 scores = model.evaluate(X, Y)
-print(scores[1]*100)
+chance=scores[1]*100
