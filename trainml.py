@@ -14,7 +14,7 @@ seed = 2
 numpy.random.seed(seed)
 # load pima indians dataset
 #dataset = numpy.loadtxt("choleraprediction.csv", delimiter=",")
-dataset = numpy.loadtxt("dataset2.csv", delimiter=",")
+dataset = numpy.loadtxt("choleraprediction.csv", delimiter=",")
 # split into input (X) and output (Y) variables
 X = dataset[:,0:8]
 Y = dataset[:,8]
@@ -41,7 +41,4 @@ print(X[-1])
 
 predictions = model.predict(X)
 scores = model.evaluate(X, Y)
-print("\n%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
-# round predictions
-rounded = [round(x[0]) for x in predictions]
-print(rounded)
+print(scores[1]*100)
