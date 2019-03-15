@@ -1,7 +1,7 @@
 import csv
 import googlemaps
 import numpy as np
-gmaps = googlemaps.Client(key='***********************')  
+gmaps = googlemaps.Client(key='******************')  #API_Key
 data = "hs.csv"
 h_list={}
 x=0
@@ -44,9 +44,7 @@ with open('HospitalServices.csv', 'r') as file1:
 k={}
 for b in hospital_services:
     if i%2==0:
-        print(b)
         k[int(i/2)]=b
-        print(1)
     i+=1
 
 
