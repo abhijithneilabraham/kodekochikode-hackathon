@@ -10,7 +10,7 @@ from keras.models import Sequential
 from keras.layers import Dense
 import numpy
 # fix random seed for reproducibility
-seed = 7
+seed = 2
 numpy.random.seed(seed)
 # load pima indians dataset
 #dataset = numpy.loadtxt("choleraprediction.csv", delimiter=",")
@@ -18,6 +18,7 @@ dataset = numpy.loadtxt("dataset2.csv", delimiter=",")
 # split into input (X) and output (Y) variables
 X = dataset[:,0:8]
 Y = dataset[:,8]
+print(Y)
 # create model
 model = Sequential()
 model.add(Dense(12, input_dim=8, init='uniform', activation='relu'))
@@ -35,10 +36,12 @@ model.fit(X, Y, epochs=150, batch_size=10,  verbose=2)
  #loss of appetite
  #heart beat rate
  #shriveled skin 
-print(X)
-xt=[[1,102,1,1,1,100,1,1]]
+print(X[-1])
 
-predictions = model.predict(xt)
+
+predictions = model.predict(X)
+scores = model.evaluate(X, Y)
+print("\n%s: %.2f%%" % (model.metrics_names[1], scores[1]*100))
 # round predictions
 rounded = [round(x[0]) for x in predictions]
 print(rounded)
