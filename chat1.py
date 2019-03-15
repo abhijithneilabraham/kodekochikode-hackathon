@@ -26,3 +26,12 @@ def train (data, config_file, model_dir):
 # Training
 #------------
 train('nlu_train.md', 'nlu_config.yml', 'models/nlu')
+interpreter = Interpreter.load('./models/nlu/default/chat')
+
+# define function to ask question
+def ask_question(text):
+    print(interpreter.parse(text))
+
+# asking question
+ask_question("How many days in January")
+ask_question("How many days in March")
