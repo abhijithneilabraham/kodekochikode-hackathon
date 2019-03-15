@@ -17,7 +17,7 @@ from rasa_core.domain import Domain
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.featurizers import MaxHistoryTrackerFeaturizer, BinarySingleStateFeaturizer
-from rasa_core.channels.console import ConsoleInputChannel
+
 from rasa_core.interpreter import RegexInterpreter
 from rasa_core.interpreter import RasaNLUInterpreter
 
@@ -26,7 +26,7 @@ from rasa_core.interpreter import RasaNLUInterpreter
 def train_dialog(dialog_training_data_file, domain_file, path_to_model = 'models/dialogue'):
     logging.basicConfig(level='INFO')
     agent = Agent(domain_file,
-              policies=[MemoizationPolicy(max_history=1)])
+              policies=[MemoizationPolicy(), KerasPolicy()])
     training_data = agent.load_data(dialog_training_data_file)
     agent.train(
         training_data,
