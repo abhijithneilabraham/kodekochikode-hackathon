@@ -10,12 +10,10 @@
   "rasa_core": "0.11.4",
   "python": "3.6.5",
   "max_histories": [
-    5,
-    5
+    1
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
-    "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "rasa_core.policies.memoization.MemoizationPolicy"
   ]
 }
