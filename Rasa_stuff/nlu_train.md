@@ -9,3 +9,4 @@
 ## intent:bye
 - Bye
 - Goodbye
+- Adios

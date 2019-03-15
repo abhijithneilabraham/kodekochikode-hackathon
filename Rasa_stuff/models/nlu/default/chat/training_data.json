@@ -40,6 +40,10 @@
       {
         "intent": "bye",
         "text": "Goodbye"
+      },
+      {
+        "intent": "bye",
+        "text": "Adios"
       }
     ],
     "regex_features": [],
