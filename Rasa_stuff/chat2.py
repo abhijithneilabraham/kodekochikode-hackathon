@@ -26,7 +26,7 @@ from rasa_core.interpreter import RasaNLUInterpreter
 def train_dialog(dialog_training_data_file, domain_file, path_to_model = 'models/dialogue'):
     logging.basicConfig(level='INFO')
     agent = Agent(domain_file,
-              policies=[MemoizationPolicy(), KerasPolicy()])
+              policies=[MemoizationPolicy(max_history=1)])
     training_data = agent.load_data(dialog_training_data_file)
     agent.train(
         training_data,
@@ -39,3 +39,6 @@ def train_dialog(dialog_training_data_file, domain_file, path_to_model = 'models
 # Train
 #--------
 train_dialog('stories.md', 'domain.yml')
+rasaNLU = RasaNLUInterpreter('models/nlu/default/chat')
+agent = Agent.load("models/dialogue", interpreter= rasaNLU)
+print(agent.handle_text('Hi'))
