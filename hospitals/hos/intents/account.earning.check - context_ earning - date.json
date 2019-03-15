@@ -1,0 +1,48 @@
+{
+  "id": "be00f960-a5c6-4e91-b118-3d2afe068c12",
+  "name": "account.earning.check - context: earning - date",
+  "auto": true,
+  "contexts": [
+    "earning"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "account.earning.check",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "06171604-4ffd-4768-9a32-23e4b04334db",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date.recent",
+          "isList": false
+        },
+        {
+          "id": "6c4f6999-526c-4fd9-9849-3903de629f8d",
+          "required": false,
+          "dataType": "@account",
+          "name": "account",
+          "value": "#earning.account",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here are your deposits for that date:"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1509575465218,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "01d74f52-87a0-4bfb-a094-ab02eed2a4a7",
+    "data": [
+      {
+        "text": "when was my last transfer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "21686ebd-d28f-4b87-8dc6-c56efa73c0d8",
+    "data": [
+      {
+        "text": "date of my last ",
+        "userDefined": false
+      },
+      {
+        "text": "deposit",
+        "alias": "type",
+        "meta": "@transfer-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484819081
+  },
+  {
+    "id": "564abe71-f4ed-4976-add8-ff064a8c6750",
+    "data": [
+      {
+        "text": "check the last ",
+        "userDefined": false
+      },
+      {
+        "text": "EFT",
+        "alias": "type",
+        "meta": "@transfer-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484819081
+  },
+  {
+    "id": "25e27e55-d68c-444d-a953-b23d0473e1c4",
+    "data": [
+      {
+        "text": "can you show the date of my last ",
+        "userDefined": false
+      },
+      {
+        "text": "credit",
+        "alias": "type",
+        "meta": "@transfer-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484819081
+  },
+  {
+    "id": "d21784bb-d3db-4dc6-a4c2-200ca99a9f90",
+    "data": [
+      {
+        "text": "when was the last ",
+        "userDefined": false
+      },
+      {
+        "text": "credit",
+        "alias": "type",
+        "meta": "@transfer-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484819081
+  },
+  {
+    "id": "1135c0a8-1122-4e1a-846b-1bc1c945c895",
+    "data": [
+      {
+        "text": "When was my last ",
+        "userDefined": false
+      },
+      {
+        "text": "deposit",
+        "alias": "type",
+        "meta": "@transfer-type",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484819081
+  }
+]

@@ -1,0 +1,209 @@
+[
+  {
+    "id": "ad612129-0c9f-4509-892d-aaeb3ab69907",
+    "data": [
+      {
+        "text": "deposits",
+        "alias": "category",
+        "meta": "@category",
+        "userDefined": true
+      },
+      {
+        "text": " history",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1
+  },
+  {
+    "id": "e7fe28e0-d827-42b2-a4cb-856252345ac6",
+    "data": [
+      {
+        "text": "see my ",
+        "userDefined": false
+      },
+      {
+        "text": "latest",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "deposit",
+        "alias": "category",
+        "meta": "@category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "8f6980c0-21b6-4565-9ed1-2fc762939f64",
+    "data": [
+      {
+        "text": "I want to see my ",
+        "userDefined": false
+      },
+      {
+        "text": "deposits",
+        "alias": "category",
+        "meta": "@category",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "9f3f480f-43b0-48bd-a019-79bc741faf0f",
+    "data": [
+      {
+        "text": "check",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " earnings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "d2903bfd-6732-4270-84a2-28cacb1b4d56",
+    "data": [
+      {
+        "text": "earnings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "608d008e-aa88-4d84-b5eb-be55c6897bd1",
+    "data": [
+      {
+        "text": "can you say how much money I got ",
+        "userDefined": false
+      },
+      {
+        "text": "last month",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      },
+      {
+        "text": " on my ",
+        "userDefined": false
+      },
+      {
+        "text": "checking account",
+        "alias": "account",
+        "meta": "@account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e6f89b6a-f725-44c4-831b-6b6e28dcd4b2",
+    "data": [
+      {
+        "text": "how much money did I earn in ",
+        "userDefined": false
+      },
+      {
+        "text": "December",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484714847
+  },
+  {
+    "id": "eceb99e1-11cc-4da0-80d3-7b1e9c0515f1",
+    "data": [
+      {
+        "text": "how much money did I earn on ",
+        "userDefined": false
+      },
+      {
+        "text": "January 2",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484231709
+  },
+  {
+    "id": "45236434-cb32-479c-9564-c8345ae360ba",
+    "data": [
+      {
+        "text": "check",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " my earnings on my card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484213175
+  },
+  {
+    "id": "6b31463d-2e6a-480b-8c60-e1734489d1fe",
+    "data": [
+      {
+        "text": "check earnings are on my ",
+        "userDefined": false
+      },
+      {
+        "text": "checking",
+        "alias": "account",
+        "meta": "@account",
+        "userDefined": false
+      },
+      {
+        "text": " account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484213175
+  },
+  {
+    "id": "fea97f87-ac24-4c82-8b3b-aba3a607a0dc",
+    "data": [
+      {
+        "text": "get info about my earnings on my card in ",
+        "userDefined": false
+      },
+      {
+        "text": "December",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484213206
+  }
+]

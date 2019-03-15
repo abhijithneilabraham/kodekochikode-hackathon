@@ -1,0 +1,164 @@
+[
+  {
+    "id": "97a1735c-6df1-4ab9-87ce-1d13a2a5693f",
+    "data": [
+      {
+        "text": "When is the payment due?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484209049
+  },
+  {
+    "id": "df1ea201-c215-4d33-8dae-522e0ed653a4",
+    "data": [
+      {
+        "text": "when is the payment due on the ",
+        "userDefined": false
+      },
+      {
+        "text": "my",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484715298
+  },
+  {
+    "id": "ceb5e2cf-1d2a-44d0-9b53-0b2ddf380730",
+    "data": [
+      {
+        "text": "what are payments deadlines",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484209049
+  },
+  {
+    "id": "f789fc61-7a3a-4747-ab62-470e896256df",
+    "data": [
+      {
+        "text": "show due dates for my cards",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484216807
+  },
+  {
+    "id": "790c2499-92ce-4a97-88c0-67fb8e062b37",
+    "data": [
+      {
+        "text": "what is the payment due date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484209049
+  },
+  {
+    "id": "8d7a9991-ba2a-4cee-a257-431db4e21b13",
+    "data": [
+      {
+        "text": "due date for the payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484216807
+  },
+  {
+    "id": "eab26b07-18d4-41f4-b846-0b1f903cfc2f",
+    "data": [
+      {
+        "text": "can you ",
+        "userDefined": false
+      },
+      {
+        "text": "check",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " my payment due date for my credit card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484209049
+  },
+  {
+    "id": "e115d80e-8798-45af-add0-cd543036a87d",
+    "data": [
+      {
+        "text": "please ",
+        "userDefined": false
+      },
+      {
+        "text": "check",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " my payments deadlines",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484209049
+  },
+  {
+    "id": "182eaf62-f52b-42b8-ba91-cc6872b3467b",
+    "data": [
+      {
+        "text": "check",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " the payment due date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484209049
+  },
+  {
+    "id": "d82834ae-0dd3-481e-bad5-93bf991e24a3",
+    "data": [
+      {
+        "text": "check",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " due date for the payment on ",
+        "userDefined": false
+      },
+      {
+        "text": "my card",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484209049
+  }
+]

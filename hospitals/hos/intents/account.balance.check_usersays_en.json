@@ -1,0 +1,217 @@
+[
+  {
+    "id": "ca4340ea-8114-4efd-b789-0458ee5c70b3",
+    "data": [
+      {
+        "text": "check",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " my ",
+        "userDefined": false
+      },
+      {
+        "text": "credit card",
+        "alias": "account",
+        "meta": "@account",
+        "userDefined": false
+      },
+      {
+        "text": " balance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "a03f9d03-3483-4ff0-8ecb-d31dec4d6521",
+    "data": [
+      {
+        "text": "balance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484216432
+  },
+  {
+    "id": "c5582339-61f5-482d-a742-8292dba569a2",
+    "data": [
+      {
+        "text": "check",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " my ",
+        "userDefined": false
+      },
+      {
+        "text": "savings",
+        "alias": "account",
+        "meta": "@account",
+        "userDefined": false
+      },
+      {
+        "text": " account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484144117
+  },
+  {
+    "id": "0726bdd6-e355-48ae-81cc-ca6aeead357a",
+    "data": [
+      {
+        "text": "what\u0027s the balance in my ",
+        "userDefined": false
+      },
+      {
+        "text": "savings",
+        "alias": "account",
+        "meta": "@account",
+        "userDefined": true
+      },
+      {
+        "text": " account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484836649
+  },
+  {
+    "id": "92c2a464-7809-4a13-8195-612c570f92b2",
+    "data": [
+      {
+        "text": "show available money on my ",
+        "userDefined": false
+      },
+      {
+        "text": "checking",
+        "alias": "account",
+        "meta": "@account",
+        "userDefined": false
+      },
+      {
+        "text": " account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484144426
+  },
+  {
+    "id": "53d41928-a172-47bd-89ed-c0c75dc96526",
+    "data": [
+      {
+        "text": "how much money is available on my bank account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1484714837
+  },
+  {
+    "id": "a7cbf265-1614-46dc-a84f-adcf14045d4e",
+    "data": [
+      {
+        "text": "check how much money do i have",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "23e90f0c-c39d-4d04-9077-26e59885403d",
+    "data": [
+      {
+        "text": "how much money do I have on the card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484714837
+  },
+  {
+    "id": "c1d32c74-e722-497d-b5cc-7689e155ab29",
+    "data": [
+      {
+        "text": "check my balance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c717539f-c98c-4c12-ac11-c226bfd6849a",
+    "data": [
+      {
+        "text": "can you show balance on ",
+        "userDefined": false
+      },
+      {
+        "text": "the card",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484144117
+  },
+  {
+    "id": "67533dd3-a241-4899-87fb-27f24d03fce0",
+    "data": [
+      {
+        "text": "check",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " money on my card",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484144426
+  },
+  {
+    "id": "6e81c5c2-efeb-4184-a062-8b83e7eba9ef",
+    "data": [
+      {
+        "text": "show balance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484216432
+  },
+  {
+    "id": "a3bbc2b0-2707-43f4-9d0f-e868325e216f",
+    "data": [
+      {
+        "text": "check my account",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1484714837
+  }
+]
