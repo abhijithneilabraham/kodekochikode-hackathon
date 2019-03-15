@@ -13,7 +13,8 @@ import numpy
 seed = 7
 numpy.random.seed(seed)
 # load pima indians dataset
-dataset = numpy.loadtxt("choleraprediction.csv", delimiter=",")
+#dataset = numpy.loadtxt("choleraprediction.csv", delimiter=",")
+dataset = numpy.loadtxt("dataset2.csv", delimiter=",")
 # split into input (X) and output (Y) variables
 X = dataset[:,0:8]
 Y = dataset[:,8]
@@ -27,7 +28,17 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 # Fit the model
 model.fit(X, Y, epochs=150, batch_size=10,  verbose=2)
 # calculate predictions
-predictions = model.predict(X)
+ #diarrhea and vomiting=1
+ #presence of fever above 100 degree Fahrenheit
+ #Dehydration
+ #nausea
+ #loss of appetite
+ #heart beat rate
+ #shriveled skin 
+print(X)
+xt=[[1,102,1,1,1,100,1,1]]
+
+predictions = model.predict(xt)
 # round predictions
 rounded = [round(x[0]) for x in predictions]
 print(rounded)
