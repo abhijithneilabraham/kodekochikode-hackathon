@@ -1,0 +1,19 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_service": {
+      "slots": []
+    }
+  },
+  "rasa_core": "0.11.4",
+  "python": "3.6.5",
+  "max_histories": [
+    1
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy"
+  ]
+}

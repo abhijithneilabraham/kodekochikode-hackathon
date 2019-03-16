@@ -1,0 +1,41 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_answer_31_days
+- utter_answer_30_days
+- utter_answer_28_days
+- utter_bye
+- utter_service
+config:
+  store_entities_as_slots: true
+entities:
+- month
+intents:
+- greet:
+    use_entities: true
+- query_days_in_month:
+    use_entities: true
+- bye:
+    use_entities: true
+- I am not feeling well:
+    use_entities: true
+slots: {}
+templates:
+  utter_answer_28_days:
+  - text: There are 28 days in the mentioned month.
+  utter_answer_30_days:
+  - text: There are 30 days in the mentioned month.
+  utter_answer_31_days:
+  - text: There are 31 days in the mentioned month.
+  utter_bye:
+  - text: Goodbye
+  utter_greet:
+  - buttons:
+    - payload: Great
+      title: Great
+    - payload: Sad
+      title: Sad
+    text: Hey, how can I help you?
+  utter_service:
+  - text: Lets do a quick checkup.Please give answers to the following questions
