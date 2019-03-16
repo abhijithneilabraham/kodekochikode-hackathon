@@ -59,7 +59,7 @@ while a!="STOP":
         import csv
         import googlemaps
         import numpy as np
-        gmaps = googlemaps.Client(key='AIzaSyDD3BrAMj8NXDunRffUiVkTy9WBfpimLq0') #API_Key
+        gmaps = googlemaps.Client(key='*†********************') #API_Key
         data = "hs.csv"
         h_list={}
         x=0
