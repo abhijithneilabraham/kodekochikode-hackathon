@@ -6,9 +6,9 @@ var pat = document.getElementById("pat").value;
 var doct=document.getElementById("doct").value;
 
 var data = [
-   ['Foo', 'programmer'],
-   ['Bar', 'bus driver'],
-   ['Moo', 'Reindeer Hunter']
+   ['Doctor', doct],
+   ['Patient', pat],
+   ['Vacant', vac]
 ];
 
 
