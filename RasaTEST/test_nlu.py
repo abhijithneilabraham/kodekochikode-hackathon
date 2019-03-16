@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 15 12:00:32 2019
-
-@author: abhijithneilabraham
-"""
-
 # Imports
 #-----------
 # rasa core
@@ -39,14 +31,8 @@ def train_dialog(dialog_training_data_file, domain_file, path_to_model = 'models
 # Train
 #--------
 train_dialog('stories.md', 'domain.yml')
-rasaNLU = RasaNLUInterpreter('models/nlu/default/chat')
+rasaNLU = RasaNLUInterpreter("models/nlu/default/chat")
 agent = Agent.load("models/dialogue", interpreter= rasaNLU)
-b=agent.handle_text( 'What kind of service can you provide')
-print(b)
 
-a=""
-while a!="STOP":
-    a=str(input('enter text here'))
-    b=agent.handle_text(a)
-    print(b)
-
+# asking question
+print(agent.handle_text('Hi'))

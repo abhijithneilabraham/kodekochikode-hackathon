@@ -1,6 +1,7 @@
 ## intent:greet
 - Hi
 - Hey
+- Hello
 
 ## intent:query_days_in_month
 - How many days in [January](month)

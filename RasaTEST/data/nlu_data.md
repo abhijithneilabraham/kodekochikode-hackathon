@@ -5,23 +5,18 @@
 - hello there
 - good morning
 - good evening
-- morning
+- moin
 - hey there
 - let's go
 - hey dude
-- good morning
-- good evening
+- goodmorning
+- goodevening
 - good afternoon
-## intent:service
-- not feeling goodbye
-- stressed
-- nauseous
-- headache
 
 ## intent:goodbye
 - cu
 - good by
-- see you later
+- cee you later
 - good night
 - good afternoon
 - bye

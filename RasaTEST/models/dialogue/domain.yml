@@ -6,7 +6,6 @@ actions:
 - utter_answer_30_days
 - utter_answer_28_days
 - utter_bye
-- utter_service
 config:
   store_entities_as_slots: true
 entities:
@@ -17,8 +16,6 @@ intents:
 - query_days_in_month:
     use_entities: true
 - bye:
-    use_entities: true
-- I am not feeling well:
     use_entities: true
 slots: {}
 templates:
@@ -31,11 +28,4 @@ templates:
   utter_bye:
   - text: Goodbye
   utter_greet:
-  - buttons:
-    - payload: Great
-      title: Great
-    - payload: Sad
-      title: Sad
-    text: Hey, how can I help you?
-  utter_service:
-  - text: Lets do a quick checkup.Please give answers to the following questions
+  - text: Hey, how can I help you?

@@ -3,7 +3,7 @@
     "action_listen": {
       "slots": []
     },
-    "utter_service": {
+    "utter_bye": {
       "slots": []
     }
   },

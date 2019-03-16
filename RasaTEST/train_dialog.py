@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 15 12:00:32 2019
-
-@author: abhijithneilabraham
-"""
-
-# Imports
-#-----------
-# rasa core
 import logging
 from rasa_core import training
 from rasa_core.actions import Action
@@ -17,7 +6,7 @@ from rasa_core.domain import Domain
 from rasa_core.policies.keras_policy import KerasPolicy
 from rasa_core.policies.memoization import MemoizationPolicy
 from rasa_core.featurizers import MaxHistoryTrackerFeaturizer, BinarySingleStateFeaturizer
-
+from rasa_core.channels.console import ConsoleInputChannel
 from rasa_core.interpreter import RegexInterpreter
 from rasa_core.interpreter import RasaNLUInterpreter
 
@@ -34,19 +23,4 @@ def train_dialog(dialog_training_data_file, domain_file, path_to_model = 'models
         epochs=200,
         batch_size=10,
         validation_split=0.2)
-    agent.persist(path_to_model)
-
-# Train
-#--------
-train_dialog('stories.md', 'domain.yml')
-rasaNLU = RasaNLUInterpreter('models/nlu/default/chat')
-agent = Agent.load("models/dialogue", interpreter= rasaNLU)
-b=agent.handle_text( 'What kind of service can you provide')
-print(b)
-
-a=""
-while a!="STOP":
-    a=str(input('enter text here'))
-    b=agent.handle_text(a)
-    print(b)
-
+    agent.persist(path_to_

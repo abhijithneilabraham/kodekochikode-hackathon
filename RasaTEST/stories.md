@@ -1,5 +1,3 @@
-
-
 ## story1              
 * greet              
   - utter_greet
@@ -12,4 +10,4 @@
 * bye               
   - utter_bye
 * service
-  - utter_service
+  -utter_service
