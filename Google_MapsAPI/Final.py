@@ -1,7 +1,7 @@
 import csv
 import googlemaps
 import numpy as np
-gmaps = googlemaps.Client(key='*********************') #API_Key  
+gmaps = googlemaps.Client(key='***********************') #API_Key
 data = "hs.csv"
 h_list={}
 x=0
@@ -21,8 +21,8 @@ for a in hospital_list:
     h_list[x,3]=a[1][i+1:21]
     h_list[x,5]=a[0]
     x+=1
-LatP = input("Your Latitude :")
-LongP = input("Your Longitude :")
+LatP = input("Your Latitude :") #9.991111
+LongP = input("Your Longitude :")#76.35125
 for i in range(0,x):
     t = float(h_list[i,2])-float(LatP)
     p = float(h_list[i,3])-float(LongP)
@@ -83,11 +83,25 @@ for i in range(0,10):
             n+=1
     else:
         n+=1
+print("\nThe nearest hospital with minimum patient traffic \n")
 d=max(FinalProbability)
 for i in range(0,10):
     if FinalProbability[i]==d:
         print("Name :",h_list[i,0],"\nAddress :",h_list[i,1],"\nDistance :",h_list[i,4],"\n")
         break
+
+print("\nOther hospitals in the area\n")
+for i in range(0,10):
+    t = float(h_list[i,2])-float(LatP)
+    p = float(h_list[i,3])-float(LongP)
+    if t<0.1 and t>-0.1:
+        if p<0.1 and p>-0.1:
+            print("Name :",h_list[i,0],"\nAddress :",h_list[i,1],"\nDistance :",h_list[i,4],"\n")
+            #print("Treatment Probability :",TreatmentProbability[i],"\n Admittance Probability :",AdmittanceProbability[i],"\n")
+        
+            
+    
+    
 
             
 
