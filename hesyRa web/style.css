@@ -1,0 +1,6 @@
+#first {width: 1366px; height:150px; background-color:#06C;background-image:url(images.jpg);}
+#icon {background-image:url(images1.jpg); width:150px; height:150px; background-repeat:no-repeat; background-size:cover;}
+#name {margin-left:150px; font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#FFF;}
+#heading {color:#09C;}
+#lab {color:#006; font-family:Arial, Helvetica, sans-serif;}
+#submit {width:70px; height:30px; alignment-adjust:central; background-color:#09C; color:#FFF;}

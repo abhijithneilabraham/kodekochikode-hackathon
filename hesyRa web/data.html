@@ -1,0 +1,53 @@
+<html>
+
+<head>
+<title>hesyRa details</title>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  
+<div id="first">
+<div id="icon"></div>
+</div>
+<div id="formfill">
+<center>
+<h2 id="heading">HOSPITAL DETAILS</h2>
+<form id="form_id2" method="post" name="myform2">
+<label id="lab">Number Of Vacant Rooms&emsp;</t></t></label>
+<input type="text" name="vac" id="vac"/></br></br>
+<label id="lab">Number Of Patients&emsp;&emsp;&emsp;&emsp;</t></t></t></label>
+<input type="pat" name="pat" id="pat"/></br></br>
+<label id="lab">Number Of Doctors&emsp;&emsp;&emsp;&emsp;</label>
+<input type="doct" name="doct" id="doct"/></br></br>
+<input type="button" value="Submit" id="submit" onClick="validate()"/>
+</form>
+
+<script >
+var vac = document.getElementById("vac").value;
+var pat = document.getElementById("pat").value;
+var doct=document.getElementById("doct").value;
+var data = [
+   ['Doctor', doct],
+   ['Patient', pat],
+   ['Vacant', vac]
+];
+function download_csv() {
+    var csv = 'Name,Title\n';
+    data.forEach(function(row) {
+            csv += row.join(',');
+            csv += "\n";
+    });
+    console.log(csv);
+    var hiddenElement = document.createElement('a');
+    hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
+    hiddenElement.target = '_blank';
+    hiddenElement.download = 'people.csv';
+    hiddenElement.click();
+}
+</script>
+<button id="submit" onClick="download_csv()">Download CSV</button>
+</center>
+</div>
+</body>
+</html>
