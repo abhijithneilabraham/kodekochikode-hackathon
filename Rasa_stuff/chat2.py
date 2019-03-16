@@ -41,12 +41,11 @@ def train_dialog(dialog_training_data_file, domain_file, path_to_model = 'models
 train_dialog('stories.md', 'domain.yml')
 rasaNLU = RasaNLUInterpreter('models/nlu/default/chat')
 agent = Agent.load("models/dialogue", interpreter= rasaNLU)
-b=agent.handle_text( 'What kind of service can you provide')
-print(b)
+
 
 a=""
 while a!="STOP":
     a=str(input('enter text here'))
     b=agent.handle_text(a)
-    print(b)
+    print("Answer:"+b[0]['text'])
 
