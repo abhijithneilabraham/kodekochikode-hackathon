@@ -10,6 +10,10 @@
         "text": "Hey"
       },
       {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
         "intent": "query_days_in_month",
         "entities": [
           {

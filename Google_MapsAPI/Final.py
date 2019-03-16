@@ -1,7 +1,7 @@
 import csv
 import googlemaps
 import numpy as np
-gmaps = googlemaps.Client(key='***********************') #API_Key
+gmaps = googlemaps.Client(key='AIzaSyDD3BrAMj8NXDunRffUiVkTy9WBfpimLq0') #API_Key
 data = "hs.csv"
 h_list={}
 x=0
@@ -21,8 +21,8 @@ for a in hospital_list:
     h_list[x,3]=a[1][i+1:21]
     h_list[x,5]=a[0]
     x+=1
-LatP = input("Your Latitude :") #9.991111
-LongP = input("Your Longitude :")#76.35125
+LatP = 9.991111 #latitude
+LongP =76.35125#longtitude
 for i in range(0,x):
     t = float(h_list[i,2])-float(LatP)
     p = float(h_list[i,3])-float(LongP)

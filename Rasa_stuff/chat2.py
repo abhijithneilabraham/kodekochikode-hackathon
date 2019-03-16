@@ -46,6 +46,7 @@ agent = Agent.load("models/dialogue", interpreter= rasaNLU)
 a=""
 while a!="STOP":
     a=str(input('enter text here'))
+    
     b=agent.handle_text(a)
     print("Answer:"+b[0]['text'])
 
