@@ -5,6 +5,7 @@ intents:
  - greet
  - query_days_in_month
  - bye
+ - I am not feeling well
 
 entities:
 # place your entities
@@ -13,7 +14,12 @@ entities:
 templates:
 # sample replies
  utter_greet:
-  - "Hey, how can I help you?"
+  - text: "Hey, how can I help you?"
+    buttons:
+    - title: "Great"
+      payload: "Great"
+    - title: "Sad"
+      payload: "Sad"
  utter_answer_31_days:
   - "There are 31 days in the mentioned month."
  utter_answer_30_days:
@@ -22,6 +28,8 @@ templates:
   - "There are 28 days in the mentioned month."
  utter_bye:
   - "Goodbye"
+ utter_service:
+  - text: "Lets do a quick checkup.Please give answers to the following questions"
 
 actions:
 # templates (as they are reply actions),
@@ -31,3 +39,4 @@ actions:
  - utter_answer_30_days
  - utter_answer_28_days
  - utter_bye
+ - utter_service
