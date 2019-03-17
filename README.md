@@ -7,7 +7,9 @@ Rasa is an open source framework we are using here.
 
 
 We used Google Maps Api for calculating distance between the user and the hospitals nearby and using this data to suggest which hospital to consult based on the services they provide and the medical condition of the user.
-It is in the folder googlemaps folder
+It is in the folder googlemaps.
+hezyra web has the html page for web service we plan to do
+
 
 
 
