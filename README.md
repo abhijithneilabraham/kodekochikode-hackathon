@@ -14,3 +14,6 @@ hezyra web has the html page for web service we plan to do
 
 
 The major stuff we do using rasa are in rasa_stuff folder
+
+
+The end product is a hospital traffic monitoring system using web service and a chatbot interface and google maps api is used to get location of all nearby hospitals.
